@@ -1,0 +1,83 @@
+.list-group {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-group-item {
+    cursor: pointer;
+    margin: 5%;
+    flex: 1 1 80px;
+}
+
+.list-group-item:hover::after {
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 1%;
+    font-weight: 600;
+}
+
+#azure:hover::after {
+    content: "Azure";
+}
+
+#c:hover::after {
+    content: "C";
+}
+
+#cpp:hover::after {
+    content: "C++";
+}
+
+#docker:hover::after {
+    content: "Docker";
+}
+
+#git:hover::after {
+    content: "Git";
+}
+
+#gcloud:hover::after {
+    content: "Google Cloud";
+}
+
+#haskell:hover::after {
+    content: "Haskell";
+}
+
+#jupyter:hover::after {
+    content: "Jupyter";
+}
+
+#kaggle:hover::after {
+    content: "Kaggle";
+}
+
+#keras:hover::after {
+    content: "Keras";
+}
+
+#numpy:hover::after {
+    content: "Numpy";
+}
+
+#pandas:hover::after {
+    content: "Pandas";
+}
+
+#pytorch:hover::after {
+    content: "PyTorch";
+}
+
+#linux:hover::after {
+    content: "Linux";
+}
+
+#r:hover::after {
+    content: "R";
+}
+
+#scikit:hover::after {
+    content: "scikit";
+}
